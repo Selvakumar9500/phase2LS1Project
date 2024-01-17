@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.redbus.qa.Tests.TestHomePage">
+        <methods>
+          <include name="openApp"/>
+          <include name="getNameMethod"/>
+          <include name="InitializeExtentReport"/>
+          <include name="test_Clickonbusticket"/>
+          <include name="generateReports"/>
+          <include name="test_Clickoncabrental"/>
+          <include name="test_ClickonredRail"/>
+          <include name="generateTestStatus"/>
+        </methods>
+      </class> <!-- com.redbus.qa.Tests.TestHomePage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
